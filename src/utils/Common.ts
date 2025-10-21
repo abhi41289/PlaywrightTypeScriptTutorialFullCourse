@@ -73,7 +73,7 @@ async function readJsonReport() {
                 });
             });
         } catch (error) {
-            console.error('Error while readinf JSON report' + error)
+            console.error('Error while reading JSON report: ' + error)
         }
     } else {
         console.log('Update test plan or pipeline conditions not met.');

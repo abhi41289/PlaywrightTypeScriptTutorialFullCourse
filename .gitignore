@@ -9,3 +9,8 @@ node_modules/
 /allure-results
 /.DS_Store
 /test-data/.DS_Store
+
+# Environment variables (contains secrets)
+.env
+.env.local
+.env.*.local
